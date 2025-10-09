@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>biodata</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    nav {
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        padding: 10px 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav-links {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    .nav-links a {
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+        font-weight: 500;
+        transition: 0.3s;
+    }
+
+    .nav-links a:hover {
+        color: blue;
+        transform: scale(1.1);
+    }
+
+    .biodata {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+        
+    }
+
+    .kedua {
+        background-color: lightskyblue;
+        border-radius: 100%;
+        width: 350px;
+        height: 350px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    img {
+        background-color: aqua;
+        width: 100%;
+        
+    }
+
+    section {
+        padding: 10px;
+    }
+
+    .pertama {
+        font-size: 20px;
+        line-height: 2;
+    }
+
+    .pertama p {
+        font-weight: 500;
+    }
+
+    .gambar {
+        width: 250px;
+        border-left: red 5px solid;
+        border-radius: 20px;
+    }
+
+    .about-section {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        margin-top: 20px;
+        padding: 20px;
+    }
+
+    .about {
+        width: 400px;
+    }
+
+    .about a {
+        /* text-align: justify; */
+        font-size: 18px;
+        line-height: 1.5;
+        font-weight: 500;
+    }
+
+
+
+</style>
+<body>
+    <nav>
+        <h1>Biodata</h1>
+        <ul class="nav-links">
+            <li><a href="index.html">home</a></li>
+            <li><a href="biodata.html">biodata</a></li>
+            <li><a href="kontak.html">kontak</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h1 style="text-align: center;">biodata</h1>
+        <hr width="50%" style="margin: auto; font-size: medium;" size="10">
+    </section>
+
+    <section class="biodata">
+        <div class="pertama">
+            <p>nama : nyoman adi putra</p>
+            <p>nim : 2404411099</p>
+            <p>kelas : H-3</p>
+            <p>jurusan : teknik informatika</p>
+            <p>fakultas : fakultas teknologi informasi</p>
+            <p>universitas : UNCP</p>
+        </div>
+
+        <div class="kedua">
+            <img src="INTP (1).jpeg" alt="foto saya" width="200px" style="border-radius: 20px; display: block; margin-left: auto; margin-right: auto;">
+        </div>
+    </section>
+
+    <section class="about-section">
+
+        <div class="gambar">
+            <img src="INTP (1).jpeg" alt="foto uncp" width="500px" style="display: block; margin-left: auto; margin-right: auto; margin-top: 20px; border-radius: 20px;">
+        </div>
+
+        <div class="about">
+            <h1>about</h1>
+            <a>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae optio ipsam fuga ex aspernatur doloremque rerum enim qui in illo, expedita facere vero eveniet laboriosam! Aliquid eos quaerat nihil, nesciunt earum sed iusto totam laboriosam beatae repellendus ipsum? Consequuntur eius repellat architecto ipsam earum qui!</a>
+        </div> 
+        
+    </section>
+</body>
+</html>
