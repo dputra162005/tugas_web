@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: lightgrey;
+    }
+    h1 {
+        color: blue;
+    }
+
+    h2 {
+        color: green;
+    }
+
+    p {
+        color: brown;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: red;
+        transform: scale(1.1);
+    }
+    nav {
+        width: 100%;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        padding: 10px 30px;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    .nav-links {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    .container {
+        width: 100%;
+        display: flex;
+        gap: 40px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .foto {
+        width: 100%;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .containerproduk {
+        background-color: aqua;
+        border-radius: 10px;
+        padding: 20px 25px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        
+    }
+    .col {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 20px;
+    }
+    .row {
+        
+    }
+
+    .btn {
+        text-align: end;
+    }
+    .btn button {
+        padding: 15px 25px;
+        background-color: red;
+        border: none;
+        border-radius: 8px;
+    }
+
+
+
+
+    
+    </style>
+    <nav>
+        <h1>D. putra</h1>
+        <ul class="nav-links">
+            <li><a href="index.html">home</a></li>
+            <li><a href="biodata.html">biodata</a></li>
+            <li><a href="kontak.html">kontak</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <div class="container">
+            <div class="teks">
+                <h2>Selamat datang di website saya</h2>
+                <p>kami menjual produk makanan Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae consectetur officiis, quidem unde incidunt ipsum, optio error, assumenda culpa quod ducimus dignissimos? Maxime eligendi, dolores atque modi sed, molestias animi voluptatibus enim voluptas nostrum a perferendis corporis error dolorem nobis, quia ex porro dignissimos nihil.</p>
+             </div>   
+        </div> 
+    </section>
+
+    <section>
+        <div class="containerproduk">
+            <div class="btn">
+                <button>next</button>
+            </div>
+            <div class="col">
+                <div class="row">
+                    <img src="../pertemuan4/INTP (1).jpeg" alt="">
+                </div>
+                <div class="row">
+                    <img src="../pertemuan4/INTP (1).jpeg" alt="">
+                </div>
+                <div class="row">
+                    <img src="../pertemuan4/INTP (1).jpeg" alt="">
+                </div>
+                <div class="row">
+                    <img src="../pertemuan4/INTP (1).jpeg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+        
+    
+</body>
+</html>
